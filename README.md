@@ -4,7 +4,7 @@ This is a personal project that aims to allow a ChromeOS tablet to use an Androi
 
 **ChromeOS does not need to be in developer mode, but you will need to enable ADB.**
 
-Due to Android apps on ChromeOS running inside an isolate container, you'll have no luck trying to 
+Due to Android apps on ChromeOS running inside an isolate container, you'll have no luck trying to use a serial GPS module via USB or Bluetooth. I've also had no luck with 'GPS tether' apps as they expect your devices to be on the same L2 network.
 
 Be warned: I'm not an Android dev, the code may be of the great spaghetti kind.
 
