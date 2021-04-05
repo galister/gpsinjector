@@ -1,6 +1,6 @@
 # GPS Injector
 
-This is a personal project that aims to allow a ChromeOS tablet to use an Android phone as a remote GPS source. It works on any two Dndroid devices.
+This is a personal project that aims to allow a ChromeOS tablet to use an Android phone as a remote GPS source, but it works on any two Android devices.
 
 **ChromeOS does not need to be in developer mode, but you will need to enable ADB.**
 
