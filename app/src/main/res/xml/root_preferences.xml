@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Client Settings">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="enableMock"
+            android:title="Set Mock Location" />
+        <EditTextPreference
+            android:defaultValue="192.168.43.1:3939"
+            android:key="serverAddressA"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Server Address A"
+            app:useSimpleSummaryProvider="true"
+            tools:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:defaultValue="10.0.1.2:3939"
+            android:key="serverAddressB"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Server Address B"
+            app:useSimpleSummaryProvider="true"
+            tools:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Server Settings">
+
+        <EditTextPreference
+            android:defaultValue="3939"
+            android:key="serverPort"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Server Port"
+            app:useSimpleSummaryProvider="true"
+            tools:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
